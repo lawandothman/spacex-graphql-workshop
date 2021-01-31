@@ -1,14 +1,10 @@
 import "./App.css";
-import logo from "./logo.svg";
+import Logo from './components/Logo'
 
 const App = () => {
   return (
     <div className="App">
-      <img
-        src={logo}
-        alt="SpaceX"
-        style={{ width: 400, display: "block", margin: "auto" }}
-      />
+      <Logo/>
     </div>
   );
 };
